@@ -211,3 +211,61 @@ button {
     margin: 1rem 0;
     gap: 1rem;
 }
+.whyChooseUs .title{
+    text-align: center;
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+margin-top: 100px;
+}
+.whyChooseUs .description{
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+.card-choose{
+    margin-top: 48px;
+}
+.card-choose-row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+    margin-bottom: 32px;
+}
+
+.card-choose-item{
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 25px;
+}
+.card-choose-item i{
+    font-size: 25px;
+    margin-top: 32px;
+}
+.card-choose-item h2{
+    margin-top: 32px;
+}
+.card-choose-item p{
+    margin-top: 16px;
+    color: rgb(90, 90, 93);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+.card-choose-row-2{
+width: 50%;
+margin: 10px auto;
+}
+.card-choose-row-2 .card-choose-item{
+    background: rgba(233, 68, 68, 0.05);
+}
