@@ -132,9 +132,9 @@ button {
 
 .popular {
     margin-top: 100px;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap:5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
 }
 
 .PopularTours .title {
@@ -149,123 +149,216 @@ button {
     margin-bottom: 1.5rem;
     font-weight: 400;
 }
-.PopularTours ul li{
+
+.PopularTours ul li {
     margin-bottom: 1rem;
     font-size: 1rem;
     color: rgba(19, 19, 24, 0.7);
     font-weight: 400;
 }
-.PopularTours .btn-primary{
+
+.PopularTours .btn-primary {
     color: white;
 }
-.popular_image img{
+
+.popular_image img {
     width: 100%;
     height: 450px;
     filter: brightness(70%);
 }
-.destination{
+
+.destination {
     margin-top: 100px;
 }
-.destination h3{
+
+.destination h3 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
 }
-.destination .description{
+
+.destination .description {
     text-align: center;
     margin-top: 24px;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
 }
-.destination img{
+
+.destination img {
     width: 100%;
     height: 350px;
     filter: brightness(80%);
 }
-.row-1{
+
+.row-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem 0;
     gap: 1rem;
 }
-.destination-item{
+
+.destination-item {
     position: relative;
 }
-.country{
+
+.country {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 1.6rem;
     font-weight: 800;
     color: white;
 }
-.row-2{
+
+.row-2 {
     display: grid;
     grid-template-columns: 0.8fr 1.5fr 0.7fr;
     margin: 1rem 0;
     gap: 1rem;
 }
-.row-3{
+
+.row-3 {
     display: grid;
-    grid-template-columns:0.75fr 1.25fr;
+    grid-template-columns: 0.75fr 1.25fr;
     margin: 1rem 0;
     gap: 1rem;
 }
-.whyChooseUs .title{
+
+.whyChooseUs .title {
     text-align: center;
     color: rgb(19, 19, 24);
-font-family: Mulish;
-font-size: 40px;
-font-weight: 800;
-margin-top: 100px;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
 }
-.whyChooseUs .description{
+
+.whyChooseUs .description {
     margin-top: 24px;
     color: rgba(19, 19, 24, 0.7);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
-.card-choose{
+
+.card-choose {
     margin-top: 48px;
 }
-.card-choose-row-1{
+
+.card-choose-row-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:24px;
+    gap: 24px;
     margin-bottom: 32px;
 }
 
-.card-choose-item{
+.card-choose-item {
     box-sizing: border-box;
     border: 1px solid rgba(251, 181, 99, 0.2);
     border-radius: 16px;
-    
+
     background: rgba(251, 181, 99, 0.05);
     padding-left: 25px;
 }
-.card-choose-item i{
+
+.card-choose-item i {
     font-size: 25px;
     margin-top: 32px;
 }
-.card-choose-item h2{
+
+.card-choose-item h2 {
     margin-top: 32px;
 }
-.card-choose-item p{
+
+.card-choose-item p {
     margin-top: 16px;
     color: rgb(90, 90, 93);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 32px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
 }
-.card-choose-row-2{
-width: 50%;
-margin: 10px auto;
+
+.card-choose-row-2 {
+    width: 50%;
+    margin: 10px auto;
 }
-.card-choose-row-2 .card-choose-item{
+
+.card-choose-row-2 .card-choose-item {
     background: rgba(233, 68, 68, 0.05);
+}
+
+.deals h2 {
+    text-align: center;
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.deals p {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.deals-row-1 img {
+    height: 100%;
+}
+
+.deals-row-1 {
+    position: relative;
+
+}
+
+.Tour_details {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    background-color: red;
+    top: 20%;
+    left: 50%;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.Tour_details .icon {
+
+    font-size: 16px;
+
+}
+
+.Tour_details i {
+    color: rgb(255, 84, 0);
+}
+
+.Tour_details h4,
+p {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+}
+
+.PriceOf {
+    color: rgb(255, 84, 0);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
